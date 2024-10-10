@@ -1,0 +1,111 @@
+iframe.reveal-demo {
+  width: 100%;
+  height: 350px;
+  outline: none;
+}
+
+iframe#app-7DXK {
+    width: 500px;
+    height: 500px;
+}
+
+.slide-deck {
+  border: 3px solid #dee2e6;
+  width: 100%;
+  height: 475px;
+}
+
+.section-title-text {
+  font-size: 50pt;
+  position:absolute; 
+  left: 0; 
+  right: 0; 
+  top: 250px; 
+  margin-inline: auto; 
+  width: fit-content;
+}
+
+.reveal .slide-logo {
+  height: 100px !important;
+  width: 100px !important;
+  max-width: unset !important;
+  max-height: unset !important;
+}
+
+.footer {
+  font-size: 17pt;
+}
+
+/* Image button stuff */
+.button-container img {
+  position: relative;
+  border: 1px solid #000;
+  cursor: pointer;
+  transition: border-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.button-container img:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button-container a {
+  text-decoration: none; /* Remove underline from links */
+}
+  
+/* Fragment semi-fade stuff (Doesn't work yet!) */
+
+ /* Define initial fade-out (invisible) */
+  .fragment.fade-back-in {
+    opacity: 0.5; /* Start semi-fade */
+    transition: opacity 0.5s ease; /* Smooth transition */
+  }
+
+  /* Define the fade-back-in effect */
+  .fragment.fade-back-in.visible {
+    opacity: 1; /* Fade back in when fragment becomes visible */
+  }
+  
+  .reveal .slides section .fragment.rotate45 {
+    opacity: 1;
+    visibility: visible;
+    will-change: transform;
+}
+
+.fragment.rotate45.visible.current-fragment {
+    transform: rotate(45deg);
+}
+
+/*####*/
+
+  
+/* for the Quarto animation (borrowed from their website) */
+.hero-banner .content-block .hero-animation {
+  margin-left: 40px;
+  margin-top: 45px;
+  width: 350px;
+  height: 455px;
+}
+
+.hero-banner .content-block .hero-animation video {
+  width: 350px;
+  height: 455px;
+}
+
+/* Stacked image container */
+
+.image-stack-container img {
+  width: auto; /* Set the desired width for all logos */
+  height: 100px; /* Set the desired height for all logos */
+  object-fit: contain; /* Ensure the image scales to fit within the box without distortion */
+  display: block;
+  margin: 0 auto; /* Center the logos */
+}
+
+.center-xy {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateY(-50%), translateX(-50%);
+  transform: translateY(-50%), translateX(-50%);
+}

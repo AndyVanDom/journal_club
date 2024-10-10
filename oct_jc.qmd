@@ -1,0 +1,975 @@
+---
+title: "Herasomes"
+subtitle: October 2024 Journal Club
+
+format:
+  revealjs:
+    theme: default
+    # incremental: true
+    footnotes-hover: true
+    slide-number: true
+    scrollable: true
+    progress: true
+    embed-resources: true
+    # chalkboard: true
+    css: oct_jc.css
+
+revealjs-plugins:
+  - pointer
+
+author:
+  - name: Andy Van Domelen
+    email: vandomea@myumanitoba.ca
+---
+
+## The Article
+
+::: {.button-container style="display: flex; justify-content: center; align-items: center; width: 75%; height: auto;"}
+  [![](img/article.png)](https://www.nature.com/articles/s41556-024-01494-9){target="_blank"}
+:::
+
+
+## Overview
+
+
+:::: {.columns}
+::: {.column width=60%}
+
+:::{.fragment .fade-in-then-semi-out fragment-index=1}
+Introduction
+:::
+
+:::{.fragment .fade-in fragment-index=2 style="font-size: 40pt;"}
+**Results**
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=3}
+Sex Determination Epigentics
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=4}
+MSTR and the Proteasome
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=5}
+Sex Pathway Balance Across Generations
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=6}
+Amyloids and Heritable Phenotypes
+:::
+
+:::{.fragment .fade-in fragment-index=7}
+Amyloids as Heritable Proteins
+:::
+  
+:::
+::::
+
+
+:::{.fragment .fade-in-then-out fragment-index=1}
+![](img/wormy.png){.absolute top=150 left=450 width="600" height="auto"}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=3}
+![](plots/am_fig1a_out.png){.absolute top=375 left=200 width="800" height="auto"}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=4}
+![](plots/am_fig2b_out.png){.absolute top=100 left=550 width="450" height="auto"}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=5}
+![](plots/am_fig3bcd_out.png){.absolute top=75 left=550 width="450" height="auto"}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=6}
+![](plots/am_fig4b_out.png){.absolute top=50 left=625 width="300" height="auto"}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=7}
+![](plots/am_fig6b_out.png){.absolute top=50 left=550 width="400" height="auto"}
+:::
+
+
+## Heritable Traits {.incremental}
+### Vectors {style="color: gray; font-size: 20pt;"}
+
+-   Diverse vectors of inheritance
+    + epigenetic inheritance: common among adaptive traits, but there are barriers to stable inheritance
+-   Missing heritability
+    + traits appear hereditary, but cannot be attributable to known factors
+
+## Amyloids
+### Characteristics {style="color: gray; font-size: 20pt;"}
+
+    
+:::{.fragment .fade-in-then-semi-out fragment-index=1}
+Solid-phase, protein oligomers
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=2}
+Beta-sheet protein domains (fibrils)
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=3}
+Structure templating (ex. prions)
+:::
+
+```{=html}
+<style>
+iframe#app-7DXK {
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  left: 650px;
+  top: 75px;
+}
+</style>
+```
+
+::: {.fragment .fade-in-then-out fragment-index=1}
+{{< mol-rcsb 7DXK >}}
+:::
+
+::: {.fragment .fade-in-then-out fragment-index=1}
+![](img/amyloid_stages.png){.absolute top=200 left=100 width=500}
+:::
+
+::: {.fragment .fade-in-then-out fragment-index=2}
+![](img/fibrils.png){.absolute top=100 left=625 width=400}
+:::
+
+::: {.fragment .fade-in-then-out fragment-index=3}
+![](img/kv.jpg){.absolute top=100 left=650 width=350}
+:::
+
+::: {.fragment .fade-in-then-out fragment-index=3}
+![](img/ice.png){.absolute top=400 left=100 width=350}
+:::
+
+## Amyloids
+### Recent Findings {style="color: gray; font-size: 20pt;"}
+
+::: {.columns}
+::: {.column width=40%}
+:::{.fragment .fade-in fragment-index=1}
+Normal, "native-state" proteins form amyloid aggregates
+:::
+
+:::{.fragment .fade-in fragment-index=2}
+Amyloids are important in hormone secretion and memory formation
+:::
+:::
+:::
+
+:::{.fragment .fade-in fragment-index=1}
+::: {.button-container style="position:absolute; top: 50px; left: 450px; width: 550px; height: auto;"}
+  [![](img/norm_agg.png)](https://www.molbiolcell.org/doi/10.1091/mbc.E19-08-0443){target="_blank"}
+:::
+:::
+
+:::{.fragment .fade-in fragment-index=2}
+::: {.button-container style="position:absolute; top: 250px; left: 450px; width: 550px; height: auto;"}
+  [![](img/hormone.png)](https://www.science.org/doi/10.1126/science.1173155){target="_blank"}
+:::
+
+::: {.button-container style="position:absolute; top: 400px; left: 450px; width: 550px; height: auto;"}
+  [![](img/memory.png)](https://www.cell.com/cell/fulltext/S0092-8674(15)01500-7){target="_blank"}
+:::
+:::
+
+## Amyloids
+### Interesting Amyloid Examples {style="color: gray; font-size: 20pt;"}
+
+::: {.incremental}
+
+-   Fungi
+    + epigenetic effect of prions
+    + transgenerational
+    + adaptive benefits
+-   Early Human Cells
+    + germline stem cells, gametes
+    + "cytoplasmic lattices"
+
+:::
+    
+::: {.fragment .button-container style="position:absolute; top: 100px; left: 475px; width: 575px; height: auto;"}
+  [![](img/lattice.jpg)](https://www.cell.com/cell/fulltext/S0092-8674(23)01085-1){target="_blank"}
+:::
+    
+## C. elegans
+
+![](img/worm_life.png)
+
+::: {.footer}
+[Image source](<https://link.springer.com/book/10.1007/978-3-319-07827-4>)
+:::
+
+## Key Takeaways
+
+-   WT worms inherit stable amyloid-like protein structures.
+-   These structures influence development over multiple generations
+-   MSTR-1 maintains proper levels of these structures
+-   Remove MSTR-1 and you get a chain reaction leading to increased feminization and, eventually, full self-sterility.
+
+##
+
+```{=html}
+<br><br>
+```
+![](img/xkcd_proteins.png)
+
+::: {.footer}
+[#1430](https://www.xkcd.com/1430/)
+:::
+
+##
+
+::: {.section-title-text}
+Results
+:::
+
+## Germ cell sex determination is epigenetically influenced {#sec-fig1 style="font-size: 20pt;"}
+### mstr genes epigenetically maintain male germ cell sex specification {style="color: gray; font-size: 18pt;"}
+
+![](plots/am_fig1.png){.absolute top=125 left=25 width="1000" height="auto"}
+
+:::{.fragment .fade-in-then-out fragment-index=1}
+![](plots/am_fig1a.png){.absolute top=125 left=25 width="1000" height="auto"}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=2}
+![](plots/am_fig1bc.png){.absolute top=125 left=25 width="1000" height="auto"}
+:::
+
+:::{.fragment .fade-in fragment-index=3}
+![](plots/am_fig1de.png){.absolute top=125 left=25 width="1000" height="auto"}
+:::
+
+::: {.footer}
+Glossary: [Here @sec-fig1-glossary] Summary: [Here @sec-fig1-summary]
+:::
+
+## MSTR proteins confer proteasomal selectivity {#sec-fig2 style="font-size: 20pt;"}
+### mstr genes determine sex by conferring 26S proteasomal selectivity {style="color: gray; font-size: 18pt;"}
+
+![](plots/am_fig2.png){.absolute top=125 left=25 width="750" height="auto"}
+
+:::{.fragment .fade-in-then-out fragment-index=1}
+![](plots/am_fig2a.png){.absolute top=125 left=25 width="750" height="auto"}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=2}
+![](plots/am_fig2b.png){.absolute top=125 left=25 width="750" height="auto"}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=3}
+![](plots/am_fig2c.png){.absolute top=125 left=25 width="750" height="auto"}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=4}
+![](plots/am_fig2d.png){.absolute top=125 left=25 width="750" height="auto"}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=5}
+![](plots/am_fig2ef.png){.absolute top=125 left=25 width="750" height="auto"}
+:::
+
+:::{.fragment .fade-in fragment-index=6}
+![](plots/am_fig2g.png){.absolute top=125 left=25 width="750" height="auto"}
+:::
+
+::: {.footer}
+Glossary: [Here @sec-fig2-glossary] Summary: [Here @sec-fig2-summary]
+:::
+
+## Sex pathway balance changes over generations {.scrollable #sec-fig3 style="font-size: 20pt;"}
+### mstr genes balance GLD-1 and TRA-1 protein levels to determine germline sex {style="color: gray; font-size: 18pt;"}
+
+![](plots/am_fig3.png){.absolute top=100 left=25 width="750" height="auto"}
+
+:::{.fragment .fade-in-then-out fragment-index=1}
+![](plots/am_fig3a.png){.absolute top=100 left=25 width="750" height="auto"}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=2}
+![](plots/am_fig3bcd.png){.absolute top=100 left=25 width="750" height="auto"}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=3}
+![](plots/am_fig3e.png){.absolute top=100 left=25 width="750" height="auto"}
+:::
+
+:::{.fragment .fade-in fragment-index=4}
+![](plots/am_fig3f.png){.absolute top=100 left=25 width="750" height="auto"}
+:::
+
+::: {.footer}
+Glossary: [Here @sec-fig3-glossary] Summary: [Here @sec-fig3-summary]
+:::
+
+## Protein amyloids transmit heritable phenotypic information {#sec-fig4 style="font-size: 18pt;"}
+### Inheritance of amyloid bodies correlates with penetrance of mstr phenotype {style="color: gray; font-size: 17pt;"}
+
+![](plots/am_fig4.png){.absolute top=100 left=25 width="1000" height="auto"}
+
+:::{.fragment .fade-in-then-out fragment-index=1}
+![](plots/am_fig4a.png){.absolute top=100 left=25 width="1000" height="auto"}
+:::
+
+:::{.fragment .fade-in fragment-index=2}
+![](plots/am_fig4b.png){.absolute top=100 left=25 width="1000" height="auto"}
+:::
+
+::: {.footer}
+Glossary: [Here @sec-fig4-glossary] Summary: [Here @sec-fig4-summary]
+:::
+
+## Protein amyloids transmit heritable phenotypic information {#sec-fig5 style="font-size: 18pt;"}
+### Germline amyloids are sufficient to recapitulate the mstr phenotype {style="color: gray; font-size: 18pt;"}
+
+![](plots/am_fig5.png){.absolute top=125 left=25 width="950" height="auto"}
+
+:::{.fragment .fade-in-then-out fragment-index=1}
+![](plots/am_fig5a.png){.absolute top=125 left=25 width="950" height="auto"}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=2}
+![](plots/am_fig5b.png){.absolute top=125 left=25 width="950" height="auto"}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=3}
+![](plots/am_fig5c.png){.absolute top=125 left=25 width="950" height="auto"}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=4}
+![](plots/am_fig5d.png){.absolute top=125 left=25 width="950" height="auto"}
+:::
+
+:::{.fragment .fade-in fragment-index=5}
+![](plots/am_fig5e.png){.absolute top=125 left=25 width="950" height="auto"}
+:::
+
+::: {.footer}
+Glossary: [Here @sec-fig5-glossary] Summary: [Here @sec-fig5-summary]
+:::
+
+## Amyloid-like proteins are directly inherited {#sec-fig6 style="font-size: 20pt;"}
+### VIT-2 traces germline inheritance of amyloids {style="color: gray; font-size: 18pt;"}
+
+![](plots/am_fig6.png){.absolute top=100 left=25 width="950" height="auto"}
+
+:::{.fragment .fade-in-then-out fragment-index=1}
+![](plots/am_fig6a.png){.absolute top=100 left=25 width="950" height="auto"}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=2}
+![](plots/am_fig6b.png){.absolute top=100 left=25 width="950" height="auto"}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=3}
+![](plots/am_fig6c.png){.absolute top=100 left=25 width="950" height="auto"}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=4}
+![](plots/am_fig6d.png){.absolute top=100 left=25 width="950" height="auto"}
+:::
+
+:::{.fragment .fade-in fragment-index=5}
+![](plots/am_fig6e.png){.absolute top=100 left=25 width="950" height="auto"}
+:::
+
+::: {.footer}
+Glossary: [Here @sec-fig6-glossary] Summary: [Here @sec-fig6-summary]
+:::
+
+## Amyloid-like proteins are directly inherited {#sec-fig7 style="font-size: 20pt;"}
+### De novo synthesized offspring VIT-2 grows around parental VIT-2 foci {style="color: gray; font-size: 18pt;"}
+
+![](plots/am_fig7.png){.absolute top=125 left=25 width="950" height="auto"}
+
+::: {.footer}
+Glossary: [Here @sec-fig7-glossary] Summary: [Here @sec-fig7-summary]
+:::
+
+## Amyloid-like proteins are directly inherited {#sec-fig8 style="font-size: 20pt;"}
+### Amyloids regulate WT gametogenesis and vulval cell fate specification {style="color: gray; font-size: 18pt;"}
+
+::: {.fragment .fade-out fragment-index=1}
+![](plots/am_fig8.png){.absolute top=100 left=25 width="950" height="auto"}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=1}
+![](plots/am_fig8a.png){.absolute top=100 left=25 width="950" height="auto"}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=2}
+![](plots/am_fig8b.png){.absolute top=100 left=25 width="950" height="auto"}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=3}
+![](plots/am_fig8c.png){.absolute top=100 left=25 width="950" height="auto"}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=4}
+![](plots/am_fig8d.png){.absolute top=100 left=25 width="950" height="auto"}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=5}
+![](plots/am_fig8e.png){.absolute top=100 left=25 width="950" height="auto"}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=6}
+![](plots/am_fig8f.png){.absolute top=100 left=25 width="950" height="auto"}
+:::
+
+:::{.fragment .fade-in fragment-index=7}
+![](plots/am_fig8g.png){.absolute top=100 left=25 width="950" height="auto"}
+:::
+
+::: {.footer}
+Glossary: [Here @sec-fig8-glossary] Summary: [Here @sec-fig8-summary]
+:::
+
+## Key Takeaways
+
+-   WT worms inherit stable amyloid-like protein structures.
+-   These structures influence development over multiple generations
+-   MSTR-1 maintains proper levels of these structures
+-   Remove MSTR-1 and you get a chain reaction leading to increased feminization and, eventually, full self-sterility.
+
+## Questions
+
+::: {.incremental}
+-   What is the significance of the study in your research?
+    + (in your personal life?)
+-   What are your thoughts on the methodology and results?
+-   Limitations, biases, strengths, and weaknesses?
+-   Controversies or challenges?
+-   Unanswered questions?
+-   Real world applications and implications?
+-   Do you know of other relevant studies?
+
+:::
+
+##
+
+::: {.section-title-text}
+Glossary and Summaries
+:::
+
+## Figure 1 Glossary {#sec-fig1-glossary}
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+
+fig1_glos <- data.frame(
+  Term = c(
+    'Self-fertility', '20C vs 25C', 'P0 - F20+', 'mstr', 'F22D6.2 (mstr-1)', 'F56F3.4 (mstr-2)', 'mstr-1; mstr-2 (mstr)', 'oocytes and spermatocytes', 'gene ablation', 'DIC micrographs', 'self-sterile mstr'),
+  Definition = c(
+    'The ability of hermaphrodite worms to produce offspring without mating. Hermaphrodites first produce sperm and then switch to producing oocytes.',
+    'At 20C, worms show normal fertility. At 25C, WT worms and mstr double-mutant worms show decreased fertility.',
+    'These terms represent different generations of worms. P0 refers to the first generation after a modification (e.g. mstr knock-out), and F20 refers to worms that have been maintained over 20 generations since P0.',
+    "a name assigned to the authors' gene of interest that stands for 'multigenerational self-sterility and temperature regulated'.",
+    "A gene encoding an AN1 zinc finger domain protein. Referred to as mstr-1 throughout paper.",
+    "A gene encoding a related AN1 zinc finger domain protein. Referred to as *mstr-2*. As we see throughout this paper, *mstr-2* is less relevant to the study than mstr-1.",
+    "Double-mutant worms are referred to simply as mstr worms. Single-mutant worms are referred to as either mstr-1 or *mstr-2* worms.",
+    "Oocytes are egg cells produced by hermaphrodite worms at the L4 stage. Spermatocytes are sperm cells produced earlier in worm development. A balanced production of both cell types is required for self-fertility.",
+    "CRISPR/Cas9-generated deletion of specific genes",
+    "Differential interference contrast (DIC) microscopy images that give suitable contrast to C. elegans samples for viewing.",
+    "mstr double-mutant worms that lose the ability to produce viable offspring through self-fertilization.")
+)
+
+kbl(fig1_glos, align = 'l') %>%
+  column_spec(column = 1, bold = T, width = "25%") %>%
+  column_spec(column = 2, width = "75%") %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    font_size = 20)
+
+```
+
+
+::: {.footer}
+Return to Figure 1: @sec-fig1
+:::
+
+## Figure 1 Summary {#sec-fig1-summary}
+
+```{r}
+
+fig1_sum <- data.frame(
+  Figure = c(
+    'A', 'B', 'C', 'D', 'E'),
+  Summary = c(
+    "Selfing brood sizes of worms with different genotypes. mstr-1 and mstr double mutants show vast reductions in brood size. Temperature similarly impacts brood size in both WT and mutant worms",
+"Brood size of F3 mstr worms allowed to outcross or self-fertilize. Outcrossing to WT males restored fertility in mstr worms. Issue is with spermatogenesis, not oogenesis.",
+"Brood size of F3 mstr worms when the temperature shifts from 25C to 20C at L1 stage. Temperature is a key factor in regulating fertility in mstr mutants.",
+"Germlines of somatically hermaphrodite WT and self-sterile mstr worms. mstr germlines lack sperm and show defects in germ cell development.",
+"Germlines of somatically male WT worms and mstr worms. mstr worms display feminization, wherein cells that normally undergo spermatogenesis differentiation into oocytes instead.")
+)
+
+kbl(fig1_sum, align = 'l') %>%
+  column_spec(column = 1, bold = T, width = "25%") %>%
+  column_spec(column = 2, width = "75%") %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    font_size = 24)
+
+```
+
+::: {.footer}
+Return to Figure 1: @sec-fig1
+:::
+
+## FIgure 2 Glossary {#sec-fig2-glossary}
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+
+fig2_glos <- data.frame(
+  Term = c(
+    'rpt-1 and rpn-7', 'tra-1', '26S proteasome', 'ubiquitination', 'AMC fluorescence', 'DMSO', 'MG132 and Epoxomicin', 'NTPI', 'MSTR-1::TurboID', 'RPN', 'daf-2'),
+  Definition = c(
+    'Two parts of the 19S regulatory subunit of the 26S proteasome.',
+    'A terminal sex-determining transcription factor (sperm or oocyte). Homologous to the mammalian glioma-associated oncogene (GLI)',
+    'A protein complex that degrades ubiquitinated proteins and thereby plays an important role in protein homeostasis',
+    'A process in which proteins are tagged with ubiquitin and are signaled for degradation by the proteosome.',
+    "AMC = 7-amino-4-methylcoumarin. It is a molecule that fluoresces when released by proteolytic cleavage. AMC fluorescence helps quantify protease activity.",
+    "A common solvent and, in this case, a control solution.",
+    "Both are proteasome inhibitors that are used to study the effects of proteasome-dependent processes.",
+    "NTPI = Normalized Total Precursor Intensity. A quantification method in mass spectrometry. The total intensity of peptide precursors is measured and then normalized for comparison across samples.",
+    "The MSTR-1 protein was bound with TurboID, a biotin ligase that labels nearby proteins with biotin.",
+    "Refers to a subunit of the 26S proteasome",
+    "A gene in the insulin-receptor family that is known to regulate the rate of aging in C. elegans. Mutations in daf-2 can extend the lifespan by altering the organism's metabolism.")
+)
+
+kbl(fig2_glos, align = 'l') %>%
+  column_spec(column = 1, bold = T, width = "25%") %>%
+  column_spec(column = 2, width = "75%") %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    font_size = 20)
+
+```
+
+
+::: {.footer}
+Return to Figure 2: @sec-fig2
+:::
+
+## Figure 2 Summary {#sec-fig2-summary}
+
+```{r}
+
+fig2_sum <- data.frame(
+  Figure = c(
+    'A', 'B', 'C', 'D', 'E', 'F', 'G'),
+  Summary = c(
+    "Suppressing the mstr phenotype (feminization) with rpt-1 restored self-fertility in mstr worms. The presence??? of different mstr suppressors (rpt-1, rpn-7, and tra-1) allowed brood size to approach WT levels.",
+"This is a schematic of the 26S proteasome in C. elegans. The 20S subunit degrades proteins and the 19S subunit binds the ubiquitinated protein, selecting it for degradation.",
+"This Western blot shows that ubiquitin proteins increase in mstr worms and at higher temperatures (25C), indicating a compromise in 26S proteasomal function.",
+"Over time, 20S subunit peptidase activity (represented by AMC fluorescence) increased in mstr worms, which may represent a compensatory mechanism.",
+"Proteasome inhibition at the time of spermatogenesis, via MG132 and epoxomicin administration, modestly reduced feminization. Increased 20S core activity (seen in figure 2D) is responsible for the feminization phenotype in mstr worms.",
+"Proximity labeling using tagged MSTR-1 identified proteins physically close to MSTR-1. In WT worms, 19S proteasomal regulatory subunits (RPN, RPT) were in proximity to MSTR-1, suggesting that MSTR-1 interacts with the proteasome and may regulate its function.",
+"Longevity experiments show that mstr-1 ablation has a beneficial effect on worm lifespan")
+)
+
+kbl(fig2_sum, align = 'l') %>%
+  column_spec(column = 1, bold = T, width = "25%") %>%
+  column_spec(column = 2, width = "75%") %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    font_size = 24)
+
+```
+
+::: {.footer}
+Return to Figure 2: @sec-fig2
+:::
+
+## Figure 3 Glossary {#sec-fig3-glossary}
+
+```{r}
+fig3_glos <- data.frame(
+  Term = c(
+    'GLD-1', 'MSTR-1::mCerulean3', 'GLD-1::mScarlet', 'Proximal and Distal regions', 'ectopic expression', 'L4 stage', 'mstr early vs late gen'),
+  Definition = c(
+    "An RNA-binding protein that represses translation of peptides involved in germ cell development. When expressed in the germline, it prevents spermatogenesis.",
+    "A fluorescently-tagged version of the MSTR-1 protein. mCerulean3 is cyan.",
+    "A fluorescently tagged version of the GLD-1 protein. mScarlet is red.",
+    "Different parts of the C. elegans gonad. Proximal means closer to the vulva, where spermatogenesis takes place. Distal is far from the vulva, where germ cells proliferate and oogenesis typically occurs.",
+    "Abnormal or misplaced expression of a gene or protein",
+    "The fourth larval stage of C. elegans development, the final stage before adulthood",
+    "Early generation mstr worms (P0 and F1) show partial feminization, but can still be rescued by proteasome inhibitors. Late generation mstr worms (F5 and beyond) are completely feminized. The effects of disrupted proteasomal degradation have accumulated and proteasome inhibitors are no longer effective at this late stage."
+    )
+)
+
+kbl(fig3_glos, align = 'l') %>%
+  column_spec(column = 1, bold = T, width = "25%") %>%
+  column_spec(column = 2, width = "75%") %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    font_size = 20)
+
+```
+
+::: {.footer}
+Return to Figure 3: @sec-fig3
+:::
+
+## Figure 3 Summary {#sec-fig3-summary}
+
+```{r}
+
+fig3_sum <- data.frame(
+  Figure = c(
+    'A', 'B', 'C', 'D', 'E', 'F'),
+  Summary = c(
+    "Expression patterns of MSTR-1 (cyan) and GLD-1 (red) in WT and mstr germlines. In WT worms, MSTR-1 is highest in the proximal germline, where spermatogenesis occurs, and GLD-1 in the distal germline. In mstr worms, GLD-1 is observed ectopically in the proximal germline, indicating a misregulation of GLD-1.",
+    "Western blots show that GLD-1 levels are elevated in mstr worms, especially at 25C",
+    "Bar plots quantify figure 2B, showing GLD-1 levels grow over time",
+    "WT worms maintain normal GLD-1 and are self-fertile. mstr worms show a correlation between the penetrance of ectopic GLD-1 expression and fertility. Misregulated GLD-1 directly influences germline feminization.",
+    "TRA-1 expression is progressively reduced in mstr worms across generations. Increased GLD-1 levels in mstr worms results in greater TRA-1 degradation",
+    "In WT worms, MSTR-1 mediates GLD-1 degradation. TRA-1 levels are maintained and spermatogenesis proceeds. In mstr worms, GLD-1 is ectopically expressed, TRA-1 is degraded, and germline feminization occurs over generations due to loss of proteasomal regulation."
+    )
+)
+
+kbl(fig3_sum, align = 'l') %>%
+  column_spec(column = 1, bold = T, width = "25%") %>%
+  column_spec(column = 2, width = "75%") %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    font_size = 24)
+
+```
+
+::: {.footer}
+Return to Figure 3: @sec-fig3
+:::
+
+## Figure 4 Glossary {#sec-fig4-glossary}
+
+```{r}
+fig4_glos <- data.frame(
+  Term = c(
+    'Bend vs Proximal', 'Green AF, MSTR-1, MERGE', 'Blue vs Red gut granules'),
+  Definition = c(
+    "Bend refers to the midsection of the gonad, where the germline curves. Proximal refers to the gonad region closest to the vulva.",
+    "Green AF = autofluorescent puncta in the germline. MSTR-1 = cyan-colored MSTR-1::mCerulean. Merge = a combination of the previous two.",
+    "Gut granules accumulate in C. elegans as they store lipids and as they age. These granules fluoresce either red or blue."
+    )
+)
+
+kbl(fig4_glos, align = 'l') %>%
+  column_spec(column = 1, bold = T, width = "25%") %>%
+  column_spec(column = 2, width = "75%") %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    font_size = 20)
+```
+
+::: {.footer}
+Return to Figure 4: @sec-fig4
+:::
+
+## Figure 4 Summary {#sec-fig4-summary}
+
+```{r}
+
+fig4_sum <- data.frame(
+  Figure = c(
+    'A', 'B', 'C'),
+  Summary = c(
+    "Green autofluorescent 'points' in the germline are visible in the mstr worm germline, particularly in the oocytes and embryos. These structures increase over generations and correlate with germline feminization",
+    "There is an anti-correlation between MSTR-1 expression and the presence of these autofluorescent structures.",
+    "Spectral analysis of these structures shows they have cyan-green fluorescence profile that is distinct from other structures like P-granules and age-associated autofluorescence."
+    )
+)
+
+kbl(fig4_sum, align = 'l') %>%
+  column_spec(column = 1, bold = T, width = "25%") %>%
+  column_spec(column = 2, width = "75%") %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    font_size = 24)
+
+```
+
+::: {.footer}
+Return to Figure 4: @sec-fig4
+:::
+
+## Figure 5 Glossary {#sec-fig5-glossary}
+
+```{r}
+fig5_glos <- data.frame(
+  Term = c(
+    'Curcumin', 'Baicalein', 'EGCG'),
+  Definition = c(
+    "A naturally occurring polyphenol found in turmeric.",
+    "A naturally occurring flavonoid found in the Chinese skullcap plant",
+    "A catechin compound found in green tea."
+    )
+)
+
+kbl(fig5_glos, align = 'l') %>%
+  column_spec(column = 1, bold = T, width = "25%") %>%
+  column_spec(column = 2, width = "75%") %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    font_size = 20)
+```
+
+::: {.footer}
+Return to Figure 5: @sec-fig5
+:::
+
+## Figure 5 Summary {#sec-fig5-summary}
+
+```{r}
+
+fig5_sum <- data.frame(
+  Figure = c(
+    'A', 'B', 'C', 'D', 'E'),
+  Summary = c(
+    "Amyloid inhibitors can rescue self-fertility in P0 mstr worms.",
+    "Baicalein (an amyloid inhibitor) reduced the number of green AF amyloid-like structures in the germline",
+    "This is a description of the injection experiments. Amyloids were isolated from either WT hermaphrodites or feminized mstr females.",
+    "Amyloids from mstr females injected into WT hermaphrodites reduced brood sizes at F1, indicating that the feminization phenotype was transmitted through the amyloids.",
+    "self-sterilized mstr worms, feminized by amyloid injection, produced viable offspring when outcrossed to WT males. Feminized worms still function as females."
+    )
+)
+
+kbl(fig5_sum, align = 'l') %>%
+  column_spec(column = 1, bold = T, width = "25%") %>%
+  column_spec(column = 2, width = "75%") %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    font_size = 24)
+
+```
+
+::: {.footer}
+Return to Figure 5: @sec-fig5
+:::
+
+## Figure 6 Glossary {#sec-fig6-glossary}
+
+```{r}
+fig6_glos <- data.frame(
+  Term = c(
+    'VIT-2', 'VIT-2::mEos', 'Photoconversion'),
+  Definition = c(
+    "A vitellogenin, yolk protein that is essential in oocyte maturation. In this context, VIT-2 is used as a marker to track the amyloid-like structures",
+    "A fluorescently-tagged form of VIT-2 containing mEos, a protein that fluoresces green under normal conditions and red when exposed to specific wavelength of light.",
+    "The process where a photoconvertible fluorescent protein (mEos) changes its fluorescence emission after exposure to a specific wavelength of light."
+    )
+)
+
+kbl(fig6_glos, align = 'l') %>%
+  column_spec(column = 1, bold = T, width = "25%") %>%
+  column_spec(column = 2, width = "75%") %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    font_size = 20)
+```
+
+::: {.footer}
+Return to Figure 6: @sec-fig6
+:::
+
+## Figure 6 Summary {#sec-fig6-summary}
+
+```{r}
+
+fig6_sum <- data.frame(
+  Figure = c(
+    'A', 'B', 'C', 'D', 'E'),
+  Summary = c(
+    "VIT-2 accumulates across generations in both the WT and mstr germlines. This correlates with the presence of amyloid-like structures. It is more pronounced in mstr worms, suggesting that amyloids are associated with VIT-2 build-up.",
+    "VIT-2 protein accumulates across generations, but vit-2 mRNA expression does not increase. This suggests that VIT-2 accumulation is independent of vit-2 translation in subsequent generations",
+    "VIT-2 is tracked as it moves from mature oocytes to embryos. Punctate structures in the parent (VIT-2) are converted from green to red and remain stable in the embryos. This suggests that amyloid-like structures are inherited by the progeny.",
+    "Parental photoconverted VIT-2 from figure 6c is visible in the germline of L2 offspring, suggesting that parental amyloid-like structures persist in the next generation.",
+    "Parental photoconverted VIT-2 from figure 6c is visible in the germline of L4 offspring, at the stage of germ cell differentiation in the offspring. These amyloid-like structures may influence sex determination in the next generation"
+    )
+)
+
+kbl(fig6_sum, align = 'l') %>%
+  column_spec(column = 1, bold = T, width = "25%") %>%
+  column_spec(column = 2, width = "75%") %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    font_size = 24)
+
+```
+
+::: {.footer}
+Return to Figure 6: @sec-fig6
+:::
+
+## Figure 7 Glossary {#sec-fig7-glossary}
+
+```{r}
+fig7_glos <- data.frame(
+  Term = c(
+    'Confocal microscopy'),
+  Definition = c(
+    "Microscopy that involves focused lazer light and optical sectioning to capture images that reveal specific layers or regions within a cell. Unlike DIC microscopy, which is contrast-based, confocal microscopy is fluorescence-based."
+    )
+)
+
+kbl(fig7_glos, align = 'l') %>%
+  column_spec(column = 1, bold = T, width = "25%") %>%
+  column_spec(column = 2, width = "75%") %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    font_size = 20)
+```
+
+
+::: {.footer}
+Return to Figure 7: @sec-fig7
+:::
+
+## Figure 7 Summary {#sec-fig7-summary}
+
+```{r}
+
+fig7_sum <- data.frame(
+  Figure = c(
+    'A'),
+  Summary = c(
+    "Between L1 and L4 in the offspring, the parentally photoconverted amyloid-like structure (red) is gradually surrounded by the offspring's own amyloid-like aggregates (green). This demonstrates that parental amyloid-like structures remain stable in their offspring, serving as nucleation points for offspring amyloids to gather around. The parental amyloid-like structure is not degraded or replaced."
+    )
+)
+
+kbl(fig7_sum, align = 'l') %>%
+  column_spec(column = 1, bold = T, width = "25%") %>%
+  column_spec(column = 2, width = "75%") %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    font_size = 24)
+
+```
+
+::: {.footer}
+Return to Figure 7: @sec-fig7
+:::
+
+## Figure 8 Glossary {#sec-fig8-glossary}
+
+```{r}
+fig8_glos <- data.frame(
+  Term = c(
+    'VPC induction', 'Vul', 'EGFR/let-23', 'Muv', 'Ras/let-60'),
+  Definition = c(
+    "The process where vulval precursor cells (VPCs) are signaled to adpot vulval cell fates during development. Proper VPC induction relies on a balance of EGFR/Ras signaling.",
+    "Refers to the vulva-less phenotype, which typically occurs due to insufficient VPC induction. VPCs are transformed into hypodermal cells instead.",
+    'The let-23 gene encodes the epidermal growth factor receptor (EGFR). A loss-of-function mutation in let-23 ("lf") results in improper VPC induction and the Vul phenotype.',
+    "Refers to the multi-vulva phenotype, where worms develop ectopic vulval structures, a result of excessive VPC induction.",
+    'The let-60 gene encodes Ras, a protein involved in the signaling pathway that induces VPCs to form the vulva. A gain-of-function mutation in let-60 ("gf") results in excessive VPC induction and the Muv phenotype.'
+    )
+)
+
+kbl(fig8_glos, align = 'l') %>%
+  column_spec(column = 1, bold = T, width = "25%") %>%
+  column_spec(column = 2, width = "75%") %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    font_size = 20)
+```
+
+::: {.footer}
+Return to Figure 8: @sec-fig8
+:::
+
+## Figure 8 Summary {#sec-fig8-summary}
+
+```{r}
+
+fig8_sum <- data.frame(
+  Figure = c(
+    'A', 'B', 'C', 'D', 'E', 'F', 'G'),
+  Summary = c(
+    "Curcumin, an amyloid inhibitor, visibly reduced VIT-2 expression in the germline. Inhibiting amyloids can alter germline amyloid accumulation.",
+    "Amyloid inhibitor treatment increased self-fertility, but delayed the onset of egg-laying behavior. This delay may represent a longer overall generation time in F1.",
+    "Shifting worms to 20C after numerous generations at 25C resulted in a drastic increase in brood size towards normalcy.",
+    "MSTR-1 expression is absent in proliferating VPCs and present in uninduced VPCs. After proliferation ends (L4), MSTR-1 is detectable in induced VPCs. The authors suggest that this represents MSTR-1's repressive role in vulval cell fate.",
+    "The vulva-less (Vul) phenotype appears in let-23 mutant worms. mstr-1 ablation rescues this phenotype. The multi-vulva (Muv) phenotype appears in let-60 mutant worms. mstr-1 ablation enhanced this phenotype. These findings suggest that mstr-1 influences somatic cell patterning.",
+    "During vulval induction, photoconverted VIT-2 points (red) are visible in offspring VPCs at the L3 stage. Maternal amyloid inheritance occurs in germline and somatic cells",
+    "Injecting amyloids into Ras/let-60 worms increased the penetrance of the Muv phenotype (multivulva), demonstrating that this heritable amyloid structure influences somatic development."
+    )
+)
+
+kbl(fig8_sum, align = 'l') %>%
+  column_spec(column = 1, bold = T, width = "25%") %>%
+  column_spec(column = 2, width = "75%") %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    font_size = 24)
+
+```
+
+::: {.footer}
+Return to Figure 8: @sec-fig8
+:::
+
+##
+
+::: {.section-title-text}
+Extended Data Figures
+:::
+
+## Extended Data Figure 1 {style="font-size: 20pt;"}
+### Transgenerational self-sterility of mstr mutants is caused by germline feminization {style="color: gray; font-size: 16pt;"}
+
+![](plots/ext_fig1.png){.absolute top=100 left=25 width="950" height="auto"}
+
+
+## Extended Data Figure 2 {style="font-size: 20pt;"}
+### Selective proteasomal regulation by MSTR-1 determines germ cell sex {style="color: gray; font-size: 16pt;"}
+
+![](plots/ext_fig2.png){.absolute top=100 left=25 width="950" height="auto"}
+
+
+## Extended Data Figure 3 {style="font-size: 20pt;"}
+### Transgenerational regulation of GLD-1 expression by mstr genes {style="color: gray; font-size: 16pt;"}
+
+![](plots/ext_fig3.png){.absolute top=100 left=25 width="950" height="auto"}
+
+## Extended Data Figure 4 {style="font-size: 20pt;"}
+### mstr genes regulate epigenetic information independent of known mechanisms of inheritance {style="color: gray; font-size: 16pt;"}
+
+![](plots/ext_fig4.png){.absolute top=100 left=25 width="950" height="auto"}
+
+
+## Extended Data Figure 5 {style="font-size: 20pt;"}
+### Autofluorescent bodies accumulate in WT and mstr worms over generations at 25°C {style="color: gray; font-size: 16pt;"}
+
+![](plots/ext_fig5.png){.absolute top=100 left=25 width="950" height="auto"}
+
+## Extended Data Figure 6 {style="font-size: 20pt;"}
+### Green autofluorescence in the germline significantly overlaps with physiological amyloid bodies {style="color: gray; font-size: 16pt;"}
+
+![](plots/ext_fig6.png){.absolute top=100 left=25 width="950" height="auto"}
+
+
+## Extended Data Figure 7 {style="font-size: 20pt;"}
+### Approach for purification of the amyloids {style="color: gray; font-size: 16pt;"}
+
+![](plots/ext_fig7.png){.absolute top=100 left=25 width="950" height="auto"}
+
+## Extended Data Figure 8 {style="font-size: 20pt;"}
+### Characterization of the amyloid composition reveals traceable markers {style="color: gray; font-size: 16pt;"}
+
+![](plots/ext_fig8.png){.absolute top=100 left=25 width="950" height="auto"}
+
+
+## Extended Data Figure 9 {style="font-size: 20pt;"}
+### Inheritance of injected labelled amyloids and detection of amyloid species across broad tissues {style="color: gray; font-size: 16pt;"}
+
+![](plots/ext_fig9.png){.absolute top=100 left=25 width="950" height="auto"}
