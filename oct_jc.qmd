@@ -93,12 +93,14 @@ Amyloids as Heritable Proteins
 
 
 ## Heritable Traits {.incremental}
-### Vectors {style="color: gray; font-size: 20pt;"}
 
+::: {.incremental}
 -   Diverse vectors of inheritance
     + epigenetic inheritance: common among adaptive traits, but there are barriers to stable inheritance
 -   Missing heritability
     + traits appear hereditary, but cannot be attributable to known factors
+
+:::
 
 ## Amyloids
 ### Characteristics {style="color: gray; font-size: 20pt;"}
