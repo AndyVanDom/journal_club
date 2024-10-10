@@ -235,17 +235,6 @@ Results
 
 ![](plots/am_fig1.png){.absolute top=125 left=25 width="1000" height="auto"}
 
-:::{.fragment .fade-in-then-out fragment-index=1}
-![](plots/am_fig1a.png){.absolute top=125 left=25 width="1000" height="auto"}
-:::
-
-:::{.fragment .fade-in-then-out fragment-index=2}
-![](plots/am_fig1bc.png){.absolute top=125 left=25 width="1000" height="auto"}
-:::
-
-:::{.fragment .fade-in fragment-index=3}
-![](plots/am_fig1de.png){.absolute top=125 left=25 width="1000" height="auto"}
-:::
 
 ::: {.footer}
 Glossary: [Here @sec-fig1-glossary] Summary: [Here @sec-fig1-summary]
@@ -256,29 +245,6 @@ Glossary: [Here @sec-fig1-glossary] Summary: [Here @sec-fig1-summary]
 
 ![](plots/am_fig2.png){.absolute top=125 left=25 width="750" height="auto"}
 
-:::{.fragment .fade-in-then-out fragment-index=1}
-![](plots/am_fig2a.png){.absolute top=125 left=25 width="750" height="auto"}
-:::
-
-:::{.fragment .fade-in-then-out fragment-index=2}
-![](plots/am_fig2b.png){.absolute top=125 left=25 width="750" height="auto"}
-:::
-
-:::{.fragment .fade-in-then-out fragment-index=3}
-![](plots/am_fig2c.png){.absolute top=125 left=25 width="750" height="auto"}
-:::
-
-:::{.fragment .fade-in-then-out fragment-index=4}
-![](plots/am_fig2d.png){.absolute top=125 left=25 width="750" height="auto"}
-:::
-
-:::{.fragment .fade-in-then-out fragment-index=5}
-![](plots/am_fig2ef.png){.absolute top=125 left=25 width="750" height="auto"}
-:::
-
-:::{.fragment .fade-in fragment-index=6}
-![](plots/am_fig2g.png){.absolute top=125 left=25 width="750" height="auto"}
-:::
 
 ::: {.footer}
 Glossary: [Here @sec-fig2-glossary] Summary: [Here @sec-fig2-summary]
@@ -289,22 +255,6 @@ Glossary: [Here @sec-fig2-glossary] Summary: [Here @sec-fig2-summary]
 
 ![](plots/am_fig3.png){.absolute top=100 left=25 width="750" height="auto"}
 
-:::{.fragment .fade-in-then-out fragment-index=1}
-![](plots/am_fig3a.png){.absolute top=100 left=25 width="750" height="auto"}
-:::
-
-:::{.fragment .fade-in-then-out fragment-index=2}
-![](plots/am_fig3bcd.png){.absolute top=100 left=25 width="750" height="auto"}
-:::
-
-:::{.fragment .fade-in-then-out fragment-index=3}
-![](plots/am_fig3e.png){.absolute top=100 left=25 width="750" height="auto"}
-:::
-
-:::{.fragment .fade-in fragment-index=4}
-![](plots/am_fig3f.png){.absolute top=100 left=25 width="750" height="auto"}
-:::
-
 ::: {.footer}
 Glossary: [Here @sec-fig3-glossary] Summary: [Here @sec-fig3-summary]
 :::
@@ -313,14 +263,6 @@ Glossary: [Here @sec-fig3-glossary] Summary: [Here @sec-fig3-summary]
 ### Inheritance of amyloid bodies correlates with penetrance of mstr phenotype {style="color: gray; font-size: 17pt;"}
 
 ![](plots/am_fig4.png){.absolute top=100 left=25 width="1000" height="auto"}
-
-:::{.fragment .fade-in-then-out fragment-index=1}
-![](plots/am_fig4a.png){.absolute top=100 left=25 width="1000" height="auto"}
-:::
-
-:::{.fragment .fade-in fragment-index=2}
-![](plots/am_fig4b.png){.absolute top=100 left=25 width="1000" height="auto"}
-:::
 
 ::: {.footer}
 Glossary: [Here @sec-fig4-glossary] Summary: [Here @sec-fig4-summary]
@@ -331,25 +273,6 @@ Glossary: [Here @sec-fig4-glossary] Summary: [Here @sec-fig4-summary]
 
 ![](plots/am_fig5.png){.absolute top=125 left=25 width="950" height="auto"}
 
-:::{.fragment .fade-in-then-out fragment-index=1}
-![](plots/am_fig5a.png){.absolute top=125 left=25 width="950" height="auto"}
-:::
-
-:::{.fragment .fade-in-then-out fragment-index=2}
-![](plots/am_fig5b.png){.absolute top=125 left=25 width="950" height="auto"}
-:::
-
-:::{.fragment .fade-in-then-out fragment-index=3}
-![](plots/am_fig5c.png){.absolute top=125 left=25 width="950" height="auto"}
-:::
-
-:::{.fragment .fade-in-then-out fragment-index=4}
-![](plots/am_fig5d.png){.absolute top=125 left=25 width="950" height="auto"}
-:::
-
-:::{.fragment .fade-in fragment-index=5}
-![](plots/am_fig5e.png){.absolute top=125 left=25 width="950" height="auto"}
-:::
 
 ::: {.footer}
 Glossary: [Here @sec-fig5-glossary] Summary: [Here @sec-fig5-summary]
@@ -360,25 +283,6 @@ Glossary: [Here @sec-fig5-glossary] Summary: [Here @sec-fig5-summary]
 
 ![](plots/am_fig6.png){.absolute top=100 left=25 width="950" height="auto"}
 
-:::{.fragment .fade-in-then-out fragment-index=1}
-![](plots/am_fig6a.png){.absolute top=100 left=25 width="950" height="auto"}
-:::
-
-:::{.fragment .fade-in-then-out fragment-index=2}
-![](plots/am_fig6b.png){.absolute top=100 left=25 width="950" height="auto"}
-:::
-
-:::{.fragment .fade-in-then-out fragment-index=3}
-![](plots/am_fig6c.png){.absolute top=100 left=25 width="950" height="auto"}
-:::
-
-:::{.fragment .fade-in-then-out fragment-index=4}
-![](plots/am_fig6d.png){.absolute top=100 left=25 width="950" height="auto"}
-:::
-
-:::{.fragment .fade-in fragment-index=5}
-![](plots/am_fig6e.png){.absolute top=100 left=25 width="950" height="auto"}
-:::
 
 ::: {.footer}
 Glossary: [Here @sec-fig6-glossary] Summary: [Here @sec-fig6-summary]
@@ -396,37 +300,8 @@ Glossary: [Here @sec-fig7-glossary] Summary: [Here @sec-fig7-summary]
 ## Amyloid-like proteins are directly inherited {#sec-fig8 style="font-size: 20pt;"}
 ### Amyloids regulate WT gametogenesis and vulval cell fate specification {style="color: gray; font-size: 18pt;"}
 
-::: {.fragment .fade-out fragment-index=1}
 ![](plots/am_fig8.png){.absolute top=100 left=25 width="950" height="auto"}
-:::
 
-:::{.fragment .fade-in-then-out fragment-index=1}
-![](plots/am_fig8a.png){.absolute top=100 left=25 width="950" height="auto"}
-:::
-
-:::{.fragment .fade-in-then-out fragment-index=2}
-![](plots/am_fig8b.png){.absolute top=100 left=25 width="950" height="auto"}
-:::
-
-:::{.fragment .fade-in-then-out fragment-index=3}
-![](plots/am_fig8c.png){.absolute top=100 left=25 width="950" height="auto"}
-:::
-
-:::{.fragment .fade-in-then-out fragment-index=4}
-![](plots/am_fig8d.png){.absolute top=100 left=25 width="950" height="auto"}
-:::
-
-:::{.fragment .fade-in-then-out fragment-index=5}
-![](plots/am_fig8e.png){.absolute top=100 left=25 width="950" height="auto"}
-:::
-
-:::{.fragment .fade-in-then-out fragment-index=6}
-![](plots/am_fig8f.png){.absolute top=100 left=25 width="950" height="auto"}
-:::
-
-:::{.fragment .fade-in fragment-index=7}
-![](plots/am_fig8g.png){.absolute top=100 left=25 width="950" height="auto"}
-:::
 
 ::: {.footer}
 Glossary: [Here @sec-fig8-glossary] Summary: [Here @sec-fig8-summary]
